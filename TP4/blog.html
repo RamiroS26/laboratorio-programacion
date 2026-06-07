@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Integrador HTML5</title>
+    <link rel="stylesheet" href="blog.css">
+    <script src="blog.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Blog de Tecnología y Desarrollo</h1>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="saludarVisitante()">Inicio</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="main-content">
+        <article>
+            <h1>Introducción a las Arquitecturas Modernas</h1>
+            <p class="metadata">Por Admin | Publicado el <span id="fechaActual"></span></p>
+            <p>El diseño de sistemas ha evolucionado significativamente.</p>
+            <figure>
+                <img src="https://via.placeholder.com/800x300?text=Arquitectura" alt="Arquitectura">
+                <figcaption>Esquema de microservicios.</figcaption>
+            </figure>
+        </article>
+        <!-- Agregarían 4 artículos más siguiendo esta estructura -->
+    </div>
+
+    <aside>
+        <h3>Artículos Relacionados</h3>
+        <ul>
+            <li><a href="#">Optimizar JavaScript</a></li>
+            <li><a href="#">Guía Flexbox</a></li>
+            <li><a href="#">Bases de Datos</a></li>
+        </ul>
+    </aside>
+</div>
+
+<footer>
+    <p>Contacto: info@blogtecnologia.com</p>
+</footer>
+</body>
+</html>
